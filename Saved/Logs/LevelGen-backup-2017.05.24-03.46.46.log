@@ -1,0 +1,371 @@
+﻿Log file open, 05/24/17 00:26:51
+LogInit:Display: Running engine for game: LevelGen
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1272460062) SRandInit(-1272460062).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.170775
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  -debug
+LogInit: Base directory: D:/Program Files/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.23-23.26.52:818][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.23-23.26.52:818][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.23-23.26.52:825][  0]LogInit: Computer: JFB
+[2017.05.23-23.26.52:825][  0]LogInit: User: baxter
+[2017.05.23-23.26.52:825][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.23-23.26.52:825][  0]LogInit: High frequency timer resolution =3.320306 MHz
+[2017.05.23-23.26.52:825][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.23-23.26.52:825][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.23-23.26.52:825][  0]LogMemory: Process Physical Memory: 264.49 MB used, 264.49 MB peak
+[2017.05.23-23.26.52:825][  0]LogMemory: Process Virtual Memory: 263.59 MB used, 263.59 MB peak
+[2017.05.23-23.26.52:825][  0]LogMemory: Physical Memory: 6818.97 MB used,  9502.41 MB free, 16321.38 MB total
+[2017.05.23-23.26.52:825][  0]LogMemory: Virtual Memory: 643.26 MB used,  9502.41 MB free, 134217728.00 MB total
+[2017.05.23-23.26.52:903][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.05.23-23.26.53:413][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.23-23.26.53:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.05.23-23.26.53:455][  0]LogD3D11RHI:       8119/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.23-23.26.53:458][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.23-23.26.53:458][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.23-23.26.53:458][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.23-23.26.53:461][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.23-23.26.53:461][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.23-23.26.53:461][  0]LogWindows: EnumDisplayDevices:
+[2017.05.23-23.26.53:461][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.05.23-23.26.53:461][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.23-23.26.53:461][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.23-23.26.53:461][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.23-23.26.53:462][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.23-23.26.53:462][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.05.23-23.26.53:462][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.05.23-23.26.53:462][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.05.23-23.26.53:462][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.23-23.26.53:479][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.23-23.26.53:479][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.23-23.26.53:488][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.23-23.26.53:491][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/baxter/Documents/UnrealProjects/LevelGen/Intermediate/Shaders/WorkingDirectory/5832/).
+[2017.05.23-23.26.53:491][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/baxter/AppData/Local/Temp/UnrealShaderWorkingDir/909859454B524A530B1973B2B23BC7E5/'.
+[2017.05.23-23.26.53:491][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.23-23.26.54:332][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.23-23.26.54:367][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.23-23.26.54:400][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.23-23.26.54:435][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.23-23.26.54:471][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.23-23.26.54:506][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.23-23.26.54:540][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.23-23.26.54:575][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.23-23.26.54:601][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.23-23.26.54:635][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.23-23.26.54:668][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.23-23.26.54:701][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.23-23.26.54:734][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.23-23.26.54:768][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.23-23.26.54:802][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.23-23.26.54:872][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.23-23.26.54:872][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.23-23.26.54:893][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.23-23.26.54:962][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.23-23.26.54:985][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.23-23.26.55:018][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.23-23.26.55:051][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.23-23.26.55:087][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.23-23.26.55:122][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.23-23.26.55:122][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.23-23.26.55:404][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.23-23.26.55:443][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/baxter/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.23-23.26.55:443][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/baxter/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.23-23.26.55:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/baxter/Documents/UnrealProjects/LevelGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.23-23.26.55:443][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.23-23.26.55:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/baxter/Documents/UnrealProjects/LevelGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.23-23.26.55:443][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.23-23.26.55:460][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.23-23.26.55:472][  0]LogDerivedDataCache: Using Local data cache path C:/Users/baxter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.23-23.26.55:479][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.23-23.26.55:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.23-23.26.55:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.23-23.26.55:661][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.23-23.26.55:663][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.23-23.26.55:801][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.23-23.26.55:831][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.23-23.26.55:859][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.23-23.26.55:859][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.23-23.26.55:859][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.23-23.26.56:232][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: levelgen, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3670768004
+[2017.05.23-23.26.56:269][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2017.05.23-23.26.56:295][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.016201 seconds
+[2017.05.23-23.26.56:299][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.23-23.26.56:299][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.23-23.26.56:299][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.23-23.26.56:334][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.23-23.26.57:394][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.23-23.26.57:423][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.23-23.26.57:779][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.23-23.26.58:021][  0]SourceControl: Info Source control is disabled
+[2017.05.23-23.26.58:021][  0]SourceControl: Info Source control is disabled
+[2017.05.23-23.26.58:049][  0]SourceControl: Info Source control is disabled
+[2017.05.23-23.26.58:080][  0]SourceControl: Info Source control is disabled
+[2017.05.23-23.26.58:874][  0]LogEngine: Initializing Engine...
+[2017.05.23-23.26.58:874][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.23-23.26.58:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.23-23.26.58:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.23-23.26.59:024][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.23-23.26.59:033][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.23-23.26.59:070][  0]LogInit: FAudioDevice initialized.
+[2017.05.23-23.26.59:090][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/baxter/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.23-23.26.59:095][  0]LogInit: Texture streaming: Enabled
+[2017.05.23-23.26.59:153][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.23-23.26.59:212][  0]LogInit: Transaction tracking system initialized
+[2017.05.23-23.26.59:416][  0]BlueprintLog: New page: Editor Load
+[2017.05.23-23.26.59:970][  0]LocalizationService: Info Localization service is disabled
+[2017.05.23-23.27.00:394][  0]LogConsoleResponse:Display: 
+[2017.05.23-23.27.00:484][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.23-23.27.00:484][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.23-23.27.00:991][  0]LogFileCache: Scanning file cache for directory 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/' took 0.01s
+[2017.05.23-23.27.01:162][  0]SourceControl: Info Source control is disabled
+[2017.05.23-23.27.01:162][  0]Cmd: MAP LOAD FILE="C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/TopDownCPP/Maps/ExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.23-23.27.01:162][  0]LightingResults: New page: Lighting Build
+[2017.05.23-23.27.01:186][  0]MapCheck: New page: Map Check
+[2017.05.23-23.27.01:186][  0]LightingResults: New page: Lighting Build
+[2017.05.23-23.27.01:365][  0]LogAIModule: Creating AISystem for world ExampleMap
+[2017.05.23-23.27.01:385][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.23-23.27.01:385][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.23-23.27.01:410][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.552ms to complete.
+[2017.05.23-23.27.01:410][  0]LogFileHelpers: Loading map 'ExampleMap' took 0.248
+[2017.05.23-23.27.01:463][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.23-23.27.01:559][  0]LogCollectionManager: Loaded 0 collections in 0.000706 seconds
+[2017.05.23-23.27.01:620][  0]LogFileCache: Scanning file cache for directory 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Saved/Collections/' took 0.01s
+[2017.05.23-23.27.01:620][  0]LogFileCache: Scanning file cache for directory 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/Developers/baxter/Collections/' took 0.01s
+[2017.05.23-23.27.01:620][  0]LogFileCache: Scanning file cache for directory 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/Collections/' took 0.01s
+[2017.05.23-23.27.01:620][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.23-23.27.01:628][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2249 classes and 456 folders.
+[2017.05.23-23.27.01:662][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.05.23-23.27.01:690][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.05.23-23.27.01:770][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.05.23-23.27.01:791][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.23-23.27.01:796][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.23-23.27.01:848][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.05.23-23.27.01:848][  0]LogLoad: (Engine Initialization) Total time: 10.99 seconds
+[2017.05.23-23.27.01:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.05.23-23.27.01:848][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.23-23.27.01:848][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.23-23.27.01:857][  0]LogOcInput: OculusInput pre-init called
+[2017.05.23-23.27.01:872][  0]LogAssetRegistry: Asset discovery search completed in 5.6259 seconds
+[2017.05.23-23.27.01:873][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.23-23.27.01:873][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.05.23-23.27.01:876][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.05.23-23.27.01:883][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.23-23.27.01:889][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.23-23.27.01:893][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.23-23.27.01:973][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.23-23.27.02:008][  0]LogRenderer: Reallocating scene render targets to support 1004x580 NumSamples 1 (Frame:2).
+[2017.05.23-23.27.17:618][305]LogTemp: Repeting last play command: Simulate
+[2017.05.23-23.27.17:624][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.27.17:624][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-23.27.17:625][305]PIE: New page: SIE session: ExampleMap (24 May 2017 01:27:17)
+[2017.05.23-23.27.17:625][305]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap
+[2017.05.23-23.27.17:640][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015322s)
+[2017.05.23-23.27.17:641][305]LogAIModule: Creating AISystem for world ExampleMap
+[2017.05.23-23.27.17:641][305]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.05.23-23.27.17:641][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/ExampleMap.ExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.016557s)
+[2017.05.23-23.27.17:656][305]LogInit: XAudio2 using 'Speakers (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.23-23.27.17:661][305]LogInit: FAudioDevice initialized.
+[2017.05.23-23.27.17:704][305]LogLoad: Game class is 'GameModeBase'
+[2017.05.23-23.27.17:706][305]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2017.05.24-00.27.17
+[2017.05.23-23.27.17:707][305]LogWorld: Bringing up level for play took: 0.000931
+[2017.05.23-23.27.17:730][305]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.05.23-23.27.17:730][305]Generator: //////////////////////////////
+[2017.05.23-23.27.17:730][305]Generator: ////// BEGIN GENERATOR //////
+[2017.05.23-23.27.17:730][305]Generator: //////////////////////////////
+[2017.05.23-23.27.17:730][305]Generator: ============================================
+[2017.05.23-23.27.17:731][305]Generator: ===== GenerateLevel() - Iteration: 1 ======
+[2017.05.23-23.27.17:731][305]Generator: ============================================
+[2017.05.23-23.27.17:731][305]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap -0.466
+[2017.05.23-23.27.17:733][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.27.17:734][305]Generator: GetNewTransform(): Connected LevelModule_1|-B to LevelModule_0|-A
+[2017.05.23-23.27.19:778][548]Generator: GetNewTransform(): Connected LevelModule_2|-B to LevelModule_0|-B
+[2017.05.23-23.27.22:833][914]Generator: ============================================
+[2017.05.23-23.27.22:833][914]Generator: ===== GenerateLevel() - Iteration: 2 ======
+[2017.05.23-23.27.22:833][914]Generator: ============================================
+[2017.05.23-23.27.22:844][915]Generator: GetNewTransform(): Connected LevelModule_3|-A to LevelModule_2|-A
+[2017.05.23-23.27.27:135][430]Generator: GetNewTransform(): Connected LevelModule_4|-B to LevelModule_2|-B
+[2017.05.23-23.27.28:385][580]Generator: ============================================
+[2017.05.23-23.27.28:385][580]Generator: ===== GenerateLevel() - Iteration: 3 ======
+[2017.05.23-23.27.28:385][580]Generator: ============================================
+[2017.05.23-23.27.28:397][581]Generator: GetNewTransform(): Connected LevelModule_5|-A to LevelModule_4|-A
+[2017.05.23-23.27.31:456][948]Generator: GetNewTransform(): Connected LevelModule_6|-B to LevelModule_4|-B
+[2017.05.23-23.27.34:506][314]Generator: ============================================
+[2017.05.23-23.27.34:506][314]Generator: ===== GenerateLevel() - Iteration: 4 ======
+[2017.05.23-23.27.34:506][314]Generator: ============================================
+[2017.05.23-23.27.34:518][315]Generator: GetNewTransform(): Connected LevelModule_7|-B to LevelModule_6|-A
+[2017.05.23-23.27.37:910][722]Generator: GetNewTransform(): Connected LevelModule_8|-A to LevelModule_6|-B
+[2017.05.23-23.27.40:060][980]Generator: ============================================
+[2017.05.23-23.27.40:060][980]Generator: ===== GenerateLevel() - Iteration: 5 ======
+[2017.05.23-23.27.40:060][980]Generator: ============================================
+[2017.05.23-23.27.40:072][981]Generator: GetNewTransform(): Connected LevelModule_9|-B to LevelModule_8|-A
+[2017.05.23-23.27.41:339][133]Generator: GetNewTransform(): Connected LevelModule_10|-A to LevelModule_8|-B
+[2017.05.23-23.27.44:580][501]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule5)
+[2017.05.23-23.27.45:469][602]LogEditorViewport: Clicking Background
+[2017.05.23-23.27.46:081][675]Generator: ////////////////////////////
+[2017.05.23-23.27.46:081][675]Generator: ////// END GENERATOR //////
+[2017.05.23-23.27.46:081][675]Generator: ////////////////////////////
+[2017.05.23-23.27.47:892][892]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.27.47:925][892]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.27.52:925][476]LogTemp: Repeting last play command: Simulate
+[2017.05.23-23.27.52:931][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.27.52:931][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-23.27.52:931][476]PIE: New page: SIE session: ExampleMap (24 May 2017 01:27:52)
+[2017.05.23-23.27.52:931][476]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap
+[2017.05.23-23.27.52:943][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011200s)
+[2017.05.23-23.27.52:943][476]LogAIModule: Creating AISystem for world ExampleMap
+[2017.05.23-23.27.52:943][476]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.05.23-23.27.52:943][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/ExampleMap.ExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.012204s)
+[2017.05.23-23.27.52:953][476]LogInit: XAudio2 using 'Speakers (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.23-23.27.52:957][476]LogInit: FAudioDevice initialized.
+[2017.05.23-23.27.52:987][476]LogLoad: Game class is 'GameModeBase'
+[2017.05.23-23.27.52:988][476]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2017.05.24-00.27.52
+[2017.05.23-23.27.52:988][476]LogWorld: Bringing up level for play took: 0.000859
+[2017.05.23-23.27.52:989][476]Generator: //////////////////////////////
+[2017.05.23-23.27.52:989][476]Generator: ////// BEGIN GENERATOR //////
+[2017.05.23-23.27.52:989][476]Generator: //////////////////////////////
+[2017.05.23-23.27.52:989][476]Generator: ============================================
+[2017.05.23-23.27.52:989][476]Generator: ===== GenerateLevel() - Iteration: 1 ======
+[2017.05.23-23.27.52:989][476]Generator: ============================================
+[2017.05.23-23.27.52:990][476]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap 0.793
+[2017.05.23-23.27.53:001][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.27.53:001][476]Generator: GetNewTransform(): Connected LevelModule_1|-B to LevelModule_0|-A
+[2017.05.23-23.27.55:083][724]Generator: GetNewTransform(): Connected LevelModule_2|-A to LevelModule_0|-B
+[2017.05.23-23.27.57:233][982]Generator: ============================================
+[2017.05.23-23.27.57:233][982]Generator: ===== GenerateLevel() - Iteration: 2 ======
+[2017.05.23-23.27.57:233][982]Generator: ============================================
+[2017.05.23-23.27.57:244][983]Generator: GetNewTransform(): Connected LevelModule_3|-A to LevelModule_2|-A
+[2017.05.23-23.27.59:403][242]Generator: GetNewTransform(): Connected LevelModule_4|-B to LevelModule_2|-B
+[2017.05.23-23.28.02:238][582]Generator: ////////////////////////////
+[2017.05.23-23.28.02:238][582]Generator: ////// END GENERATOR //////
+[2017.05.23-23.28.02:238][582]Generator: ////////////////////////////
+[2017.05.23-23.28.02:431][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.28.02:473][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.28.04:936][889]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.23-23.28.06:245][890]LogRenderer: Reallocating scene render targets to support 1004x788 NumSamples 1 (Frame:5923).
+[2017.05.23-23.28.14:500][854]LogEditorTransaction: Undo Set Vector Property
+[2017.05.23-23.28.14:646][854]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.23-23.28.49:993][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Modules/corridor_c" FILE="C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/Geometry/Meshes/Modules/corridor_c.uasset" SILENT=true
+[2017.05.23-23.28.50:022][799]LogSavePackage: Save=19.87ms
+[2017.05.23-23.28.50:022][799]LogSavePackage: Moving 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Saved/corridor_c0D3F5FCB4122B10AB1EA57A4D72FC067.tmp' to 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/Geometry/Meshes/Modules/corridor_c.uasset'
+[2017.05.23-23.28.50:023][799]LogSavePackage:Display: Finished SavePackage C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/Geometry/Meshes/Modules/corridor_c.uasset
+[2017.05.23-23.28.51:899][ 12]LogTemp: Repeting last play command: Simulate
+[2017.05.23-23.28.51:905][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.28.51:905][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-23.28.51:905][ 12]PIE: New page: SIE session: ExampleMap (24 May 2017 01:28:51)
+[2017.05.23-23.28.51:905][ 12]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap
+[2017.05.23-23.28.51:917][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011401s)
+[2017.05.23-23.28.51:917][ 12]LogAIModule: Creating AISystem for world ExampleMap
+[2017.05.23-23.28.51:918][ 12]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2017.05.23-23.28.51:918][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/ExampleMap.ExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.012457s)
+[2017.05.23-23.28.51:930][ 12]LogInit: XAudio2 using 'Speakers (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.23-23.28.51:933][ 12]LogInit: FAudioDevice initialized.
+[2017.05.23-23.28.51:973][ 12]LogLoad: Game class is 'GameModeBase'
+[2017.05.23-23.28.51:977][ 12]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2017.05.24-00.28.51
+[2017.05.23-23.28.51:978][ 12]LogWorld: Bringing up level for play took: 0.002307
+[2017.05.23-23.28.51:981][ 12]Generator: //////////////////////////////
+[2017.05.23-23.28.51:981][ 12]Generator: ////// BEGIN GENERATOR //////
+[2017.05.23-23.28.51:981][ 12]Generator: //////////////////////////////
+[2017.05.23-23.28.51:981][ 12]Generator: ============================================
+[2017.05.23-23.28.51:981][ 12]Generator: ===== GenerateLevel() - Iteration: 1 ======
+[2017.05.23-23.28.51:981][ 12]Generator: ============================================
+[2017.05.23-23.28.51:983][ 12]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap -0.214
+[2017.05.23-23.28.52:011][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.28.52:011][ 12]Generator: GetNewTransform(): Connected LevelModule_1|-A to LevelModule_0|-A
+[2017.05.23-23.28.54:959][363]Generator: GetNewTransform(): Connected LevelModule_2|-A to LevelModule_0|-B
+[2017.05.23-23.28.57:109][621]Generator: ============================================
+[2017.05.23-23.28.57:109][621]Generator: ===== GenerateLevel() - Iteration: 2 ======
+[2017.05.23-23.28.57:109][621]Generator: ============================================
+[2017.05.23-23.28.57:120][622]Generator: GetNewTransform(): Connected LevelModule_3|-A to LevelModule_2|-A
+[2017.05.23-23.28.59:287][882]Generator: GetNewTransform(): Connected LevelModule_4|-B to LevelModule_2|-B
+[2017.05.23-23.29.02:287][242]Generator: ////////////////////////////
+[2017.05.23-23.29.02:287][242]Generator: ////// END GENERATOR //////
+[2017.05.23-23.29.02:287][242]Generator: ////////////////////////////
+[2017.05.23-23.29.04:271][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.29.04:310][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.29.04:823][537]LogTemp: Repeting last play command: Simulate
+[2017.05.23-23.29.04:829][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.29.04:829][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.23-23.29.04:829][537]PIE: New page: SIE session: ExampleMap (24 May 2017 01:29:04)
+[2017.05.23-23.29.04:829][537]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap
+[2017.05.23-23.29.04:840][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010934s)
+[2017.05.23-23.29.04:841][537]LogAIModule: Creating AISystem for world ExampleMap
+[2017.05.23-23.29.04:841][537]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2017.05.23-23.29.04:841][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/ExampleMap.ExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.011938s)
+[2017.05.23-23.29.04:852][537]LogInit: XAudio2 using 'Speakers (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.23-23.29.04:856][537]LogInit: FAudioDevice initialized.
+[2017.05.23-23.29.04:886][537]LogLoad: Game class is 'GameModeBase'
+[2017.05.23-23.29.04:887][537]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2017.05.24-00.29.04
+[2017.05.23-23.29.04:887][537]LogWorld: Bringing up level for play took: 0.000782
+[2017.05.23-23.29.04:888][537]Generator: //////////////////////////////
+[2017.05.23-23.29.04:888][537]Generator: ////// BEGIN GENERATOR //////
+[2017.05.23-23.29.04:888][537]Generator: //////////////////////////////
+[2017.05.23-23.29.04:888][537]Generator: ============================================
+[2017.05.23-23.29.04:888][537]Generator: ===== GenerateLevel() - Iteration: 1 ======
+[2017.05.23-23.29.04:888][537]Generator: ============================================
+[2017.05.23-23.29.04:889][537]PIE: Info Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_ExampleMap 0.692
+[2017.05.23-23.29.04:899][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/ExampleMap.ExampleMap:PersistentLevel.ExampleMap'
+[2017.05.23-23.29.04:900][537]Generator: GetNewTransform(): Connected LevelModule_1|-B to LevelModule_0|-A
+[2017.05.23-23.29.06:981][785]Generator: GetNewTransform(): Connected LevelModule_2|-B to LevelModule_0|-B
+[2017.05.23-23.29.10:031][151]Generator: ============================================
+[2017.05.23-23.29.10:031][151]Generator: ===== GenerateLevel() - Iteration: 2 ======
+[2017.05.23-23.29.10:031][151]Generator: ============================================
+[2017.05.23-23.29.10:042][152]Generator: GetNewTransform(): Connected LevelModule_3|-B to LevelModule_2|-A
+[2017.05.23-23.29.13:435][559]Generator: GetNewTransform(): Connected LevelModule_4|-A to LevelModule_2|-B
+[2017.05.23-23.29.15:585][817]Generator: ////////////////////////////
+[2017.05.23-23.29.15:585][817]Generator: ////// END GENERATOR //////
+[2017.05.23-23.29.15:585][817]Generator: ////////////////////////////
+[2017.05.23-23.29.26:195][ 90]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.05.23-23.29.30:337][585]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule4)
+[2017.05.23-23.30.02:833][457]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule4)
+[2017.05.23-23.30.05:985][830]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule2)
+[2017.05.23-23.30.07:325][987]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule3)
+[2017.05.23-23.30.08:929][175]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule2)
+[2017.05.23-23.30.21:160][623]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule4)
+[2017.05.23-23.30.26:533][263]LogEditorViewport: Clicking on Actor (LMB): LevelModule (LevelModule2)
+[2017.05.23-23.30.40:698][509]LogSavePackage: Save=90.65ms
+[2017.05.23-23.30.40:698][509]LogSavePackage: Moving 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Saved/ExampleMap4298688844EA5B5F2F388C8F9A54B3BF.tmp' to 'C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/TopDownCPP/Maps/ExampleMap.umap'
+[2017.05.23-23.30.40:700][509]LogSavePackage:Display: Finished SavePackage C:/Users/baxter/Documents/UnrealProjects/LevelGen/Content/TopDownCPP/Maps/ExampleMap.umap
+[2017.05.23-23.30.40:712][509]LogFileHelpers: Saving map 'ExampleMap' took 0.155
